@@ -1,6 +1,12 @@
 # Assign value from input to variable
 name = input("What`s your name? ")
 
+# Remove whitespace from start and end of str
+name = name.strip()
+
+# Capitalize first letter of each word
+name = name.title()
+
 # Concatenation
 print("Hello, " + name)
 
