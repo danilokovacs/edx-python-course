@@ -1,6 +1,12 @@
-firstNumber = input("What`s first number? ")
-secondNumber = input("What`s second number? ")
+firstNumber = int(input("What`s first number? "))
+secondNumber = int(input("What`s second number? "))
 
-z = int(firstNumber) + int(secondNumber)
+print(f"The result is {firstNumber + secondNumber}")
 
-print(f"The result is {z}")
+print("--------------------------------------------")
+firstFloatNumber = float(input("What`s your first float number? "))
+secondFloatNumber = float(input("What`s your second float number? "))
+
+roundedResult = round(firstFloatNumber + secondFloatNumber)
+
+print(f"The result is {roundedResult:,}")
