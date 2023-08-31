@@ -4,5 +4,5 @@ try:
     print(f"x is {x}")
 except ValueError:
     print("Value inputed is not integer")
-
-print(f"x is {x}")
+else:
+    print(f"x is {x}")
